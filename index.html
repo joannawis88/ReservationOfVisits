@@ -4,20 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <title>Document</title>
+    <title>Calendar on-ine</title>
 </head>
-<script src="registration.js"></script>
+<script src="registration.js"></script> 
 <body>
+
     <h1>Rejestracja konta</h1>
 
     <form id="myForm" method="POST" action="...">
             <p>E-mail: <input id="field_mail" title="E-mail not be blank." type="email" required pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})$" name="mail"></p>
-            <p>Password: <input id="field_pwd1" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd1"></p>
-            <p>Confirm Password: <input id="field_pwd2" title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="pwd2"></p>
+            <p>Password: <input id="field_password" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="password"></p>
+            <p>Confirm Password: <input id="field_confirmation" title="Please enter the same Password as above." type="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" name="confirmation"></p>
             <p><input type="submit" value="Submit"></p>
             </form>
-
-            
+        
 </body>
 </html>
